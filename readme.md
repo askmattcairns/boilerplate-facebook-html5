@@ -1,3 +1,24 @@
+# HTML5 Boilerplate incorporating LESS CSS and other tweaks.
+
+This is a fork of the HTML5 Boilerplate, with a LESS CSS workflow adding some helpful mixins.
+
+## Additions
+
+* Convenience [LESS](http://lesscss.org/) inserts and mixins
+* [HTC.pie](http://css3pie.com/)  
+  Add CSS3 Properties to IE6-9. Please check known issues if you have any problems  
+	Please check out ./less/mixins.php to set the proper path for HTC.pie if necessary.
+	
+
+## Helpful Apps
+
+Please compile LESS files locally and upload valid CSS. The apps below are helpful GUI apps to accomplish this. Compressed is prefered for production, but not required.
+
+* [LESS App](http://incident57.com/less/) - Stand Alone LESS Compliler
+* [CodeKit](http://incident57.com/codekit/) - Web coding helper app, compiles LESS
+
+---
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.
