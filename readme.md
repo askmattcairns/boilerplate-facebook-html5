@@ -1,6 +1,6 @@
-# HTML5 Boilerplate incorporating LESS CSS and other tweaks.
+# HTML5 Boilerplate For Facebook Apps
 
-This is a fork of the HTML5 Boilerplate, with a LESS CSS workflow adding some helpful mixins.
+This is a fork of the HTML5 Boilerplate, with modifications for Facebook Apps/Tabs. Uses LESS CSS.
 
 ## Additions
 
@@ -16,6 +16,10 @@ Please compile LESS files locally and upload valid CSS. The apps below are helpf
 
 * [LESS App](http://incident57.com/less/) - Stand Alone LESS Compliler
 * [CodeKit](http://incident57.com/codekit/) - Web coding helper app, compiles LESS
+
+## Resources
+
+* [Facebook Documentation](http://developers.facebook.com/docs)
 
 ---
 
