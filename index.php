@@ -3,6 +3,22 @@
 <head>
 	<meta http-equiv=Content-type content="text/html; charset=utf-8">
 	<title>Facebook Tab Boilerplate</title>
+  
+  <link 
+    rel="stylesheet" 
+    href="style.css" 
+    type="text/css" 
+    media="screen" 
+    title="Master" 
+    charset="utf-8">
+  
+  <!-- Modernizr, mainly for html5 shiv -->
+  <script 
+    src="_/js/libs/modernizr.js" 
+    type="text/javascript" 
+    charset="utf-8">
+  </script>
+  
 </head>
 <body>
 
@@ -11,7 +27,6 @@
   window.fbAsyncInit = function() {
     FB.init({
       appId: 'YOUR_APP_ID',
-      channelUrl: '//gong-media.net/channel.php',
       status: true,
       cookie: true,
       xfbml: true

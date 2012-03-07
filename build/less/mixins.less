@@ -37,6 +37,14 @@
 	behavior: url( @PIE-path );
 }
 
+.radial-center(@center:#000, @outside:#fff) {
+  background-color: @center;
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(@center), to(@outside));
+  background: -webkit-radial-gradient(circle, @center, @outside);
+  background: -moz-radial-gradient(circle, @center, @outside);
+  background: -ms-radial-gradient(circle, @center, @outside);
+}
+
 .text-shadow(@color:#666, @x:-2px, @y:2px, @blur:2px) {
 	text-shadow: @color @x @y @blur;
 }
@@ -45,4 +53,34 @@
 	zoom: 1;
 	filter: alpha(opacity=@value);
 	opacity: @value/100;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* IE only */
+.clearfix {
+  zoom: 1;
 }
